@@ -1,0 +1,11 @@
+digraph practica2 {
+compound=true;
+	edge [color="black", dir=fordware]
+graph [ranksep=0.20 nodesep=0.20]
+"monica, 1" -> "calderon, 1";
+"monica, 1" -> "raquel, 1";
+"raquel, 1" -> "muñoz, 1";
+"calderon, 1" -> ", 1";
+"calderon, 1" -> "hola, 2";
+"hola, 2" -> "casa, 1";
+}
